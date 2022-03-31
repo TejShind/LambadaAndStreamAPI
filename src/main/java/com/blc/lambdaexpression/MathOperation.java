@@ -10,10 +10,10 @@ public class MathOperation {
         IMathOperation mul = (a, b) -> a * b;
         IMathOperation div = (a, b) -> a / b;
 
-        System.out.println(add.calculate(10, 3));
-        System.out.println(sub.calculate(9, 3));
-        System.out.println(mul.calculate(6, 3));
-        System.out.println(div.calculate(25, 6));
+        IMathOperation.printResult(6, 3, "addition", add);
+        IMathOperation.printResult(9, 3, "subtraction", sub);
+        IMathOperation.printResult(6, 3, "multiplication", mul);
+        IMathOperation.printResult(11, 3, "division", div);
 
     }
 }
