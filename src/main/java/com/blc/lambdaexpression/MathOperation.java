@@ -13,8 +13,7 @@ public class MathOperation {
         System.out.println(add.calculate(10, 3));
         System.out.println(sub.calculate(9, 3));
         System.out.println(mul.calculate(6, 3));
-        System.out.println(div.calculate(11, 3));
+        System.out.println(div.calculate(25, 6));
 
     }
-
 }
