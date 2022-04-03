@@ -15,3 +15,4 @@ element - Use forEachShow using proper Class,Anonymous class and lambda function
 3.Ability to store the transformed double value into a new List by using stream.collect function.
 4.Ability to filter the even numbers from the number Stream and store the result by using stream.filter .
 5.Find first even number by using stream.findFirst function.
+6.Find minimum and maximum even number from list.
