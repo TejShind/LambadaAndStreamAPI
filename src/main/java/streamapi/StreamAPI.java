@@ -8,13 +8,12 @@ public class StreamAPI {
     public static void main(String[] args) {
 
         List<Integer> myList = Arrays.asList(1, 5, 8, 16, 2, 3, 4);
-        Integer value = myList.stream()
-                .min(Comparator.comparing(n -> n.intValue()))
-                .orElse(null);
-        System.out.println("Minimum Even number" + value);
-        Integer value2 = myList.stream()
-                .max((n1, n2) -> n1 - n2)
-                .orElse(null);
-        System.out.println("Maximum even number" + value2);
+        //For sum
+        myList.stream().reduce(0, Integer::sum);
+        Integer total = myList.stream().reduce(0, (v1, v2) -> v1 + v2);
+        System.out.println(total);
+        //For average
+        Long length = myList.stream().count();
+        System.out.println(total / length);
     }
 }
