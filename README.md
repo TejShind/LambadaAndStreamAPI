@@ -1,3 +1,4 @@
+-> JAVA 8 FEATURES
 # LAMBDA EXPRESSION
 
 1.Develop Math Operation App to perform Math Functions Addition,Subtraction,Multiplication and Division.
@@ -10,3 +11,4 @@ element - Use forEachShow using proper Class,Anonymous class and lambda function
 
 # STREAM API
 1.Ability to Create a Stream and Iterate to show each element of the stream.
+2.Ability to Transform each element to double and store the result by using stream.map function.
