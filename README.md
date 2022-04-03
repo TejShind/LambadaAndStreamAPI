@@ -17,4 +17,5 @@ element - Use forEachShow using proper Class,Anonymous class and lambda function
 5.Find first even number by using stream.findFirst function.
 6.Find minimum and maximum even number from list.
 7.Find sum and average from stream.
-8.Ability to find if all the number or at least one number is even in the number stream - Use stream.allMatch and anyMatch function
+8.Ability to find if all the number or at least one number is even in the number stream - Use stream.allMatch and anyMatch function.
+9.Find ascending order adn sort the stream.
