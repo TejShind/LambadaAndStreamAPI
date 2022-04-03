@@ -4,4 +4,5 @@
 2.Ability to show the results of Math operation by using lambda function to show result. 
 3.Create a Number Play List and Iterate and print each
 element - Use forEachShow using proper Class,Anonymous class and lambda function
-4.Ability to Iterate List od number  and print each element by using functional Interface. foe c
+4.Ability to Iterate List of number and print each element by using functional Interface.
+4.Ability to Iterate List of number and print only even number by using Predicate functional Interface. 
